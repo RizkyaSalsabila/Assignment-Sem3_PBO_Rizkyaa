@@ -17,6 +17,12 @@ public class MotorDemo_23 {
         motor.tambahKecepatan();
         motor.printStatus();
 
+        motor.tambahKecepatan();
+        motor.printStatus();
+
+        motor.tambahKecepatan();
+        motor.printStatus();
+        
         motor.matikanMesin();
         motor.printStatus();
     }
