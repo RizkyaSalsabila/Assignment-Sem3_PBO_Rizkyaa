@@ -14,7 +14,7 @@ public class EncapDemo_23 {
     public int getAge() {
         return age;
     }
-    
+
     //setter
     public void setName(String newName) {
         name = newName;
@@ -23,6 +23,8 @@ public class EncapDemo_23 {
     public void setAge(int newAge) {
         if (newAge > 30) {
             age = 30;
+        } else if (newAge < 18) {
+            age = 18;
         } else {
             age = newAge;
         }
