@@ -14,8 +14,8 @@ public class TestKoperasi_23 {
         System.out.println("\nMeminjam uang 4.000.000...");
         donny.pinjam(4000000);
 
-        System.out.println("\nMembayar angsuran 1.000.000...");
-        donny.angsur(1000000);
+        System.out.println("\nMembayar angsuran 200.000...");
+        donny.angsur(200000);
 
         System.out.println("\nMembayar angsuran 3.000.000...");
         donny.angsur(3000000);

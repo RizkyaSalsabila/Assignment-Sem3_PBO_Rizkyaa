@@ -40,8 +40,12 @@ public class Anggota_23 {
         if (uang > jumlahPeminjaman) {
              System.out.println("Periksa jumlah uang yang Anda pinjam terlebih dahulu !");
         } else {
-            jumlahPeminjaman -= uang;
-            System.out.println("Jumlah pinjaman saat ini : Rp" + jumlahPeminjaman);
+            if (uang >= 0.1 * jumlahPeminjaman) {
+                jumlahPeminjaman -= uang;
+                System.out.println("Jumlah pinjaman saat ini : Rp" + jumlahPeminjaman);
+            } else {
+                System.out.println("Maaf, angsuran harus 10% dari jumlah pinjaman");
+            }   
         }
     }
 }
